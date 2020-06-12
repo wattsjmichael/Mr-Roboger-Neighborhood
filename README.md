@@ -60,7 +60,7 @@ There are no known bugs.
 
 ## Support and contact details
 
-For feedback or concerns about this project, please contact one of the conbributors.
+For feedback or concerns about this project, please contact Michael @ Wattsjmichael@gmail.com
 
 ## Technologies Used
 
