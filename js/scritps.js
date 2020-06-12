@@ -1,16 +1,21 @@
-$(document).ready(function() {
+/*$(document).ready(function() {
   $("form#robogerFrom").submit(function(event) {
-    let number = parseInt($("input#number").val());
+    let number = parseInt($("input#numberInput").val());
     let roboSpeak = roboSpeak(speak);
-    $("result").text(result);
-  })
+    $("#result").text(result);
+  });
+})*/
 
 
 
-    String.prototype.replaceArray = function(find, replace) {
-      var number = [];
-      for (var i = 0; i < find.length; i++) {
-        result = number.replace(find["1", "2", "3"], replace["beep!", "boop!", "Won't you be my neighbor?" ]);
-      }
-      return result;
-    };
+//Split array into a string to find 3, 2, 1
+
+for (let i = 0; i < robotSpeak.length; i++){
+    if(robotSpeak[i] == "3")
+      robotSpeak[i] = "Won't You Be My Neighbor?";
+    else if (robotSpeak[i] == "2")
+      robotSpeak[i] == "Boop!";
+    else if (robotSpeak[i] == "3")
+      robotSpeak[i] == "Beep!";
+}
+console.log(robotSpeak)
