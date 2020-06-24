@@ -24,7 +24,7 @@ $(document).ready(function(){
     let newArray = robotSpeaks(number);
 
 
-    $("#leetSpeak").html(newArray);
+    $("#leetSpeak").text(newArray);
     $("#robotSpoke").show();
     });
   });
